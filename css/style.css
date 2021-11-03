@@ -638,6 +638,7 @@ img {
 }
 
 .footer {
+    padding-top: 50px;
     padding-bottom: 90px;
 }
 
@@ -659,6 +660,11 @@ img {
 }
 .burger{
     display: none;
+}
+@media (max-width: 1460px) {
+ .footer{
+     padding-top: 0;
+ }
 }
 @media (max-width: 1260px) {
     .container {
